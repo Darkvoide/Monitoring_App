@@ -1,0 +1,11 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore large subdirectories in venv
+venv/Lib/
+venv/Scripts/
+venv/Include/
+venv/share/
