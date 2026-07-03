@@ -1,6 +1,30 @@
-ultralytics==8.1.24
+# Core dependencies for Monitoring_App (Automatic Attendance System)
+
+# Computer Vision
 opencv-python==4.9.0.80
-pillow==10.2.0
+
+# Numerical computation
 numpy==1.26.4
-requests==2.31.0
+
+# Image processing
+Pillow==10.2.0
+
+# Face recognition and analysis (DeepFace + its dependencies)
 deepface
+
+# DeepFace backend dependencies
+tensorflow>=2.0.0
+keras>=2.2.0
+mtcnn>=0.1.0
+retina-face>=0.0.14
+
+# HTTP requests (used by deepface internally)
+requests==2.31.0
+
+# Data handling (used by deepface internally)
+pandas>=0.23.4
+tqdm>=4.30.0
+gdown>=3.10.1
+
+# YOLO-based object detection (ultralytics)
+ultralytics==8.1.24
